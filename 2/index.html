@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>2 - color changer</title>
+
+    <style>
+      #color-changer {
+        margin-bottom: 1rem;
+        background-color: green;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: none;
+      }
+    </style>
+  </head>
+  <body onload="Hexagon();">
+    <div>
+      <button id="color-changer" onclick="changeColor()">Change color</button>
+    </div>
+    <canvas id="main-canvas" width="800" height="600"></canvas>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/gl-matrix@3/gl-matrix.js"></script>
+  <script src="color.js"></script>
+</html>
